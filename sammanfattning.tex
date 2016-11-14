@@ -1,0 +1,563 @@
+\documentclass[a4paper, 10pt, titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{a4wide}              % Wide paper
+\usepackage{parskip}
+
+
+% For Swedish reports
+\usepackage[swedish]{babel}
+%\frenchspacing
+
+% For encapsulated postscript figures
+%
+% Use:
+%
+% \includegraphics{width=10cm, height=10cm}{fig.eps}
+%
+% where width and height are optional
+%\usepackage{graphicx}   % For eps figures
+
+% Exchange text in encapsulated postscript figures with LaTeX text
+%
+% Before the image, insert arbitrary many
+% (Don't worry, it _will_ look good when you convert to postscript)
+%
+% \psfrag{original text}{substituted text}
+%
+%\usepackage{psfrag}
+
+%
+% For nicer captions
+%
+% Valid options (between []) are:
+%
+% Indentation: hang, center, centerlast, nooneline
+% Size: scriptsize, small, normalsize, large, Large
+% Style: up, it, sl, sc, md, bf, rm, sf, tt
+%
+%\usepackage[hang,small,bf]{caption}
+
+%
+% Want to change font?
+%
+% Uncomment your choice, if all uncommented, Computer Modern Roman is
+% used. Note that some of these don't seem to work properly
+%
+\usepackage{palatino}
+%\usepackage{times}
+%\usepackage{charter}
+%\usepackage{utopia}
+%\usepackage{pifont}
+%\usepackage{chancery}
+%\usepackage{bookman}
+%\usepackage{avant}
+%\usepackage{helvet}
+%\usepackage{zapfchan}
+%\usepackage{courier}
+%\usepackage{newcent}
+
+%
+% Some optional packages:
+%
+
+%
+% Fancier enumeration
+% You get a new \begin{enumerate}[XXX] where you can specify XXX to be
+% text {i,I,a,A,1}, for example \begin{enumerate}[Uppg. a)] to get a
+% Uppg. a)/b)/c) list.
+%
+\usepackage{enumerate}
+
+
+% And here the document begins!
+\begin{document}
+
+\paragraph{Drakar och Demoner - Ordlista}
+\begin{enumerate}[I]
+\item Rollperson $\Rightarrow$ RP (Den som är äventyraren)
+\item Spelledare $\Rightarrow$ SL (Den som leder och skapar äventyren)
+\item Spelledarperson $\Rightarrow$ SLP (En eller flera karaktärer som leds av Spelledaren)
+\item Färdighetsvärde $\Rightarrow$ FV
+\item (Magi) Skicklighetsvärde $\Rightarrow$ S (FV för en viss magisk besvärjelse)
+\item (Magi) Skolvärde $\Rightarrow$ SP (Nivån på magisk mognad som måste uppfyllas för besvärjelser)
+\item Erfarenhetspoäng $\Rightarrow$ EP (Sätt att förbättra sin karaktär efter äventyr)
+\item Bakgrundspoäng $\Rightarrow$ BP (Poäng att använda för att skapa sin RP)
+\item Chanser att lyckas $\Rightarrow$ CL (Ett modifierat FV vid mindre optimala situationer)
+\item Stridsrunda $\Rightarrow$ SR (En handling vid strid, tar 5 sekunder)
+\item Kroppspoäng $\Rightarrow$ KP (Din hälsa, finns Totala KP och KP för kroppsdelar)
+\item Smärtpoäng $\Rightarrow$ SP (Trubbiga vapen ger mer smärta än skada)
+\end{enumerate}
+
+\paragraph{Drakar och Demoner - Lathund}
+
+\begin{enumerate}[I]
+\item Alla färdigheter är baserade på grundegenskaper
+\item Grundegenskaper kan ge gratis Färdighetsvärde när Rollpersonen skapas
+\item Alla Rollpersoner har samma primära färdigheter, dock är de olika duktiga
+\item Primära färdigheter har ingen övre gräns för färdighetsvärden
+\item Sekundära färdigheter begränsas av värdet för den associerade grundegenskapen
+\item Rollpersoner kan inte lära sig sekundära färdigheter vid skapandet av rollpersonen
+\item Vissa sekundära färdigheter kan bli yrkesfärdigheter. Vilka färdigheter beror på yrket
+\item Rollpersonen får automatiskt F.V. i sina yrkesfärdigheter vid skapandet
+\item Lättare att lära sig yrkesfärdigheter än sekundära färdigheter (Billigare)
+\item Yrkesfärdigheter begränsas inte av den associerade grundegenskaperna värden
+\item Magiker, Utbygdsjägare och Paladins är exklusiva i att lära sig magi
+\item Bara magiker kan lära sig besvärjelser från början
+\item En magiker (och andra) måste ha tillräcklig högt Skolvärde i magi-skolan för att lära sig besvärjelser
+\item Skicklighetsvärde i besvärjelser är obegränsade (obegränsade av besvärjelsers skolvärde)
+\item Besvärjelser är varken primära eller sekundära färdigheter
+\item Besvärjelsers skicklighetsvärden kan jämnställas med vanliga färdighetsvärden
+\item Låt inte regler diktera dig, i diskussion med SL kan de ändras. Låt de vara riktlinjer istället
+\end{enumerate}
+
+\section{Skapa Rollpersonen}
+Fundera ett tag över vilken bakgrund din Rollperson har. Varför är han/hon just här, vad har hänt i livet som
+gör att du äventyrar.
+
+För en ordinär äventyrare så har du 125 bakgrundspoäng, för extraordinär har du 150 och en hjälte har 175.
+För dessa bakgrundspoäng köper du det som gör din äventyrare unik.
+
+Köpa ras, grundegenskaper, skaffa särskilda förmågor, tvåhänthet, socialt stånd, extra startkapital,
+extra färdighetsvärden.
+
+Det enda kravet är att köpa en ras och grundegenskaper
+
+\section{Köpa Ras}
+\paragraph{Alv} En alv har kattögon, spetsiga öron. Alver är mer spensliga och klengt byggda än människor,
+å andra sidan har de en högre smidighet och är lite vackrare. De är lite intelligentare och har bättre
+hörsel och syn än en människa. En Alv kan inte dö av ålder.
+
+En Alv får +4 FV i färdigheterna Lyssna och Upptäcka Fara
+
+\paragraph{Anka} Ankor är små ankor som har händer och går på bakbenen. Väldigt mycket lik de ankor som bor i Ankeborg.
+Ankor är små och klena men samtidigt uthålliga och smidiga.
+
+En Anka får automatisk FV 20 (B5) i att simma och +4 FV i egenskapen Smyga
+
+\paragraph{Dvärg} Dvärgar är korta och kraftigt byggda, oftas iförda stora helskägg som de är mycket stolta över.
+De älskar sina berg, guld och mithril. Duktiga hantverkare och naturliga på gruvdrift.
+
+En dvärg har perfekt mörkersyn, får extra +5 FV i geologi, som dessutom blir en primär färdighet.
+
+\paragraph{Halvalv} En förälder är en människa och den andra är en alv. Utseendemässigt påminner de mest
+om människor, och har en förlängd livstid jämfört mot människor.
+
+En halvalv får +2 FV i egenskaperna Lyssna och Upptäcka Fara.
+
+\paragraph{Halvlängdsman} Gillar sin tobak och sina lugna stunder fylld med mat vid den öppna spisen.
+Visar dock upp oerhörd styrka och mod när det verkligen gäller.
+
+En Halvlängdsman får +2 FV i egenskapen Gömma Sig
+
+\paragraph{Halvorcher} En dyster varelse som inte passar ihop med varken människor eller orcher.
+Ser mer ut som människor än orcher.
+
+En halvorch får +4 FV i slagsmål
+
+\paragraph{Människa} Absolut vanligaste rasen med råge. Eftersom vi har människor som måttstock
+så finns det inget speciellt med människor
+
+\newpage
+\section{Rasmodifkationer}
+Olika raser har olika modifikationer på grundegenskaperna
+\begin{table}[hbp]
+  \begin{tabular}{|l|l|l|l|l|l|l|l|}
+    \hline
+    RAS           & STY     & FYS      & SMI     & INT    & PSY     & KAR     & STO       \\
+    \hline
+    Anka          & -4      & +2       & +2      & $\pm$0 & $\pm$0  & -3      & 3-6 (5)   \\
+    \hline
+    Dvärg         & +3      & +2       & $\pm$0  & $\pm$0 & +2      & $\pm$0  & 4-9 (7)   \\
+    \hline
+    Halvalv       & $\pm$0  & $\pm$0   & +2      & $\pm$0 & $\pm$0  & +1      & 7-16 (12) \\
+    \hline
+    Halvlängsman  & -4      & +3       & +3      & $\pm$0 & +2      & $\pm$0  & 3-6 (5)   \\
+    \hline
+    Halvorch      & +2      & +2       & -1      & $\pm$0 & $\pm$0  & -3      & 8-18 (13) \\
+    \hline
+    Människa      & $\pm$0  & $\pm$0   & $\pm$0  & $\pm$0 & $\pm$0  & $\pm$0  & 8-18 (13) \\
+    \hline
+    Alv           & -1      & $\pm$0   & +3      & $\pm$0 & $\pm$0  & +2      & 8-14 (11) \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\section{Yrken}
+
+Det finns många olika yrken för en Rollperson, ungefär 11 stycken med olika under-yrken.
+Det som skiljer dom åt är vilka sekundära färdigheter de kan räkna som yrkesfärdigheter, och
+vilken unik yrkesegenskap de har.
+
+För att kunna tillhöra en viss yrkesgrupp måste rollpersonen uppfylla vissa grundegenskaper, som
+står listade vid varje yrke.
+
+Det är bara primära färdigheter och yrkesfärdigheter som kan läras in vid skapandet av Rollpersonen,.
+
+Under spelets gång kan man lära sig olika sekundära färdigheter, men till ett högre pris än vad
+yrkesfärdigheterna kostar.
+
+Vid skapandet av rollpersonen får bara 12 yrkesfärdigheter väljas, och för de som vill ha
+magikeryrket får bara välja 9 stycken yrkesfärdigheter.
+
+De färdigheter som beskrivs under ``Möjliga yrkesfärdigheter'' och inte väljs vid skapandet av
+rollpersonen blir som vanliga sekundära färdigheter.
+
+Vissa färdigheter som Hantverk och Spela instrument har under färdigheter, som det specifika hantverket
+eller det specifika musik instrumentet. Varje underfärdighet räknas som en vanlig separat färdighet.
+
+\newpage
+\section{Grundegenskaps krav för yrken}
+För att tillhöra en viss yrkesgrupp gäller det att grundegenskaperna matchar tabellen
+
+\begin{table}[hbp]
+  \begin{tabular}{|l|l|l|l|l|l|l|l|}
+    \hline
+    YRKE         & STY     & FYS      & SMI     & INT    & PSY     & KAR     & STO  \\
+    \hline
+    Bard         & ~      & ~         & 12      & ~      & ~       & 14      & ~   \\
+    \hline
+    Helare       & ~      & ~         & ~       & 12     & 12      & ~       & ~   \\
+    \hline
+    Krigare      & 14     & 12        & ~       & ~      & ~       & ~       & ~   \\
+    \hline
+    Lärdman      & ~      & ~         & ~       & 16     & ~       & ~       & ~   \\
+    \hline
+    Lönn.Mörd,   & ~      & ~         & 14      & ~      & 12      & ~       & ~   \\
+    \hline
+    Magiker      & ~      & ~         & ~       & 12     & 14      & ~       & ~   \\
+    \hline
+    Munk         & ~      & ~         & ~       & 12     & 12      & ~       & ~   \\
+    \hline
+    Sjöfarare    & ~      & 12        & 12      & ~      & ~       & ~       & ~   \\
+    \hline
+    Riddare      & 14     & 12        & ~       & ~      & 12      & ~       & ~   \\
+    \hline
+    Tjuv         & ~      & ~         & 16      & ~      & ~       & ~       & ~   \\
+    \hline
+    Utbygds.Jäg. & ~      & 12        & 12      & ~      & 12      & ~       & ~   \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\newpage
+\section{Yrkesfärdigheter}
+
+\paragraph{Bard} Barden kan Spela eller Sjunga under minst en minut och får +5 i Karisma.
+Detta ökar C.L. i alla KAR baserade färdigheter med Cl +5. Effekten håller i sig en timme.
+Karisma baserade färdigheter är t ex bluffa, övertala, muta, skådespeleri)
+
+\paragraph{Helare} En helare kan göra handpåläggning på en skadad varelse,
+varelsen får 1 KP/SR om helaren spenderar lika många PSY poäng.
+
+En helare kan också Fördriva Sjukdom, om helaren kan övervinna sjukdomens
+svårighetsgrad. Helaren har PSY/2 mot sjukdomen.
+
+Helaren kan också Neutralisera Gift, om helarens PSY/2 övervinner giftets svårighetsgrad.
+
+Dessa förmågor kostar lika mycket PSY som sjukdomen/giftets styrka, även om helaren
+misslyckas.  Det blir därför svårare att Hela flera sjukdomar efter varandra
+
+PSY poäng återvinns på sedvanligt sätt.
+
+
+\paragraph{Krigare} En krigare får +5 på alla initiativ slag
+
+\paragraph{Lärd man} En lärd man är snusförnuftig via sina djupa kunskaper och får därmed -5
+ på alla slag på skräcktabellen
+
+\paragraph{Lönnmördare} En lönnmördare kan smyga upp bakom ett offer och attackera. Detta kräver
+både ett lyckat Smyga från lönnmördaren och en misslyckad Upptäcka Fara från offret.
+
+\begin{enumerate}[x]
+  \item Ett lyckat slag ger dubbel skada, men ingen Skadebonus
+  \item Ett perfekt slag ger fyrdubbel skada, men ingen Skadebonus
+  \item Ett fumlat slag ger skada som en vanlig attack, men ingen Skadebonus
+\end{enumerate}
+
+En attack bakifrån kan bara göras mot humanoider som inte är 2 meter högre rollpersonen
+
+\paragraph{Magiker} Magiker har ingen speciell yrkesförmåga förutom att kunna lära sig
+magi och besvärjelser från början
+
+\paragraph{Munk} En munk kan igenom meditation höja sin FV med 1 i valfri färdighet.
+Meditationen tar en SR per ökad FV. En färdighet kan max höjas till FV*2 på detta sätt.
+Höjningen håller i sig en minut efter avslutad meditation.
+
+\paragraph{Sjöfarare} En sjöfarare har kraftigt motstånd mot element, som kyla och eld.
+Även magisk frambringad element. En Sjöfarare får +5 i FYS, STO och STY när hen ska
+motstå olika element
+
+\paragraph{Riddare} En riddare kan använda 5 PSY för att träffa valfri kroppsdel
+
+En riddare kan spendera 5 PSY päng för att göra maximal skada med maximal sin skadebonus.
+
+\paragraph{Tjuv} En tjuv kan spendera upp till 3 PSY poäng för att modifiera CL på valfri
+färdighet. Färdigheten kan användas 2 gånger per dag, vila på 8 timmar (4 för alver) sedan
+kan färdigheten användas igen.
+
+\paragraph{Utbygdsjägare} En utbygdsjägare kan lära sig magiskolan Animism som yrkesfärdighet.
+Utbygdsjägaren kan inte lära sig besvärjelser från start, då rollpersonen skapas.
+Utbygdsjägaren kan även lära sig alla allmäna besvärjelser.
+
+En utbygdsjägare kan maximalt lära sig Animism till Skolvärde 12.
+
+
+\section{Köpa Grundegenskaper}
+
+TODO
+
+\section{Kroppspoäng}
+När än rollperson eller en SLP tar skada, så kommer den skadan att dras från kroppsdelen som träffas och från
+den totala kroppspoängen.
+
+När kroppspoängen på en kroppsdel blir 0, så blir kroppsdelen obrukbar, om huvudet når noll så svimmar personen.
+
+När totala kroppspoängen blir 0 förlorar man medvetandet och riskerar att förblöda och dö.
+
+Antalet totala Kroppspoäng är (FYS+STO)/2 avrundat uppåt. Kroppsdelarnas KP baseras på den totala KP.
+
+\section{Kroppspoäng tabell}
+
+TODO
+
+\section{Skadebonus}
+
+TODO
+
+\section{Förflyttning}
+
+TODO
+
+\section{Särskilda förmågor}
+När du skapar din rollperson så får du slå på en tabell för särskilda förmågor
+som gör din rollperson till det lilla extra, unika.
+
+Du måste betala minst 1 BP för att slå på tabellen. För varje BP du spenderar
+får du +1 på slaget. Använd en 2T20
+
+\begin{enumerate}[x]
+  \item För vanlig rollperson, slå 1 gång på tabellen för särskilda förmågor
+  \item För extraordinär rollperson, slå 2 gånger på tabellen för särskilda förmågor
+  \item För Hjälte som rollperson, slå 3 gånger på tabellen för särskilda förmågor
+\end{enumerate}
+
+TODO: Skriv in tabellen från sidan 25
+
+\section{Svärdshand}
+TODO
+
+\section{Socialt Stånd}
+TODO
+
+\section{Startkapital}
+TODO
+
+\section{Återstående bakgrundspoäng}
+Om du har kvar några BP kan du nu gå tillbaka och använda dom för att
+förbättra grundegenskaper.
+
+Om du inte gör det, så kan du använda dom för att skaffa lite mer erfarenhet
+för dina färdigheter.
+
+Multiplicera dina återstående bakgrundspoäng med 5 och lägg till dom till dina
+erfarenhetspoäng (EP), som du nu kan börja köpa yrkesfärdigheter för.
+
+\section{Ålder och grundegenskaper}
+
+När du bestämmer din ålder för rollpersonen förändras dina grundegenskaper. Detta
+påverkar \textit{inte}  grundegenskaps gränserna för ditt valda yrke.
+
+TODO
+
+\section{Startfärdigheter}
+Dina startfärdigheter är de redan förtryckta primära färdigheterna på rollformuläret.
+Samt dina yrkersfärdigheter (12 eller 9 stycken). Resten är sekundära färdigheter.
+Magiker kan lära sig besvärjelser fårn början.
+
+\section{Räkna ut baschanser}
+Baschans (BC) är det FV du får gratis när du skapar din Rollperson. Baschanser baseras
+på grundegenskapsvärdet som hör till färdigheten.
+
+Du får Baschanser i alla primära färdigheter samt alla yrkesfärdigheter.
+Du får inga baschanser för besvärjelser, speciella regler gäller för Tala,
+Läsa/Skriva modersmål.
+
+\begin{table}[hbp]
+  \begin{tabular}{|l|l|}
+    \hline
+    Värde & Baschans \\
+    \hline
+    1-3   & 0 \\
+    \hline
+    4-8   & 1 \\
+    \hline
+    9-12  & 2 \\
+    \hline
+    13-16 & 3 \\
+    \hline
+    17-20 & 4 \\
+    \hline
+    >20   & 5 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\section{Färdighetsvärde - Kostnadstabell}
+TODO REALLY long table
+
+\section{Skicklighetsväde - Kostnadstabell för besvärjelser}
+Kostnader för att bli bättre på besvärjelser baserar sig på skolvärde för den magiskolan
+som besvärjelsen tillhör.
+
+Ta skolvärdet för besvärjelsen har och multiplicera dess grundkostnad med antalet nivåer
+du vill höja.
+
+Till exempel, För knäcka SV 6 så är grundkostnaden 4 och att höja från 7 till 10 ger 3 i nivå skillnad.
+Så kolla upp i tabellen för grundkostnaden för Besvärjelsens Skolvärde och multiplicera
+grundkostnaden med nivåskillnaden, Grundkostnad * Differens. Här blir det 4*3 = 12 E.P som det kostar
+att förbättra KNÄCKA från 7 till 10.
+
+\begin{table}[hbp]
+  \begin{tabular}{|l|l|}
+    \hline
+    S.V  &   Grundkostnad \\
+    \hline
+    1-3   & 2 \\
+    \hline
+    4-6   & 4 \\
+    \hline
+    7-9   & 6 \\
+    \hline
+    10-12 & 8 \\
+    \hline
+    13-15 & 10 \\
+    \hline
+    16-18 & 12 \\
+    \hline
+    19-21 & 14 \\
+    \hline
+    +3    & +2 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\section{Bakgrund}
+Äntligen är rollpersonen färdig, nu är det dags att fundera ut rollpersonens
+utseende, historia och beteende. Bakgrunden borde inkludera frisyr som beskriver
+hårfärgen och längden. Vilken ögonfärg och eventuell makeup har din RP, muskelös
+kropp, smidig eller en liten mage. Ljus eller mörk röst, kommenderande eller vänlig röst.
+Vilken klädsel bär du, har du ärr någonstans efter tidigare äventyr.
+
+Låt fantasin flöda.
+
+Bakgrundshistorien borde kunna svara på frågor såsom varifrån du kommer, varför är du ute
+och äventyrar. Beskriv ditt stora mål i livet, hur kommer det sig att du är så duktig som du är
+på vad det är du nu gör.
+
+Har du familj och vänner någonstans? Har du äventyrar tidigare?
+
+När du spelar din rollperson så ska du agera och tänka som hen, tänk dig in i situationen.
+
+\section{Alternativ och Snabbare sätt att skapa Rollpersoner och SLP}
+Istället för att använda Erfarenhetspoäng och Bakgrundspoäng så använder du tärningar för att
+få fram resultat.
+
+Du bestämmer själv vilken ras, yrke, kön och ålder du vill vara. Resten är upp till tärningas vilja.
+Det finns till och med en chans att din karaktär till och med blir bättre än att använda erfarenhetspoäng.
+
+\paragraph{Grundegenskaper} Alla sju grundegenskaper slås fram. I kapitlet Varelser i grundreglerna så står
+alla tärningskombinationer för de olika raserna du kan spela.
+
+Du slår fram 3 st kompletta uppsättningar och bestäm själv vilken av dessa 3 du vill använda.
+
+Inom gruppen du har valt, så får du flytta över poäng från en grundegenskap till en annan för 2 mot 1
+basis. Det vill säga för att höja en grundegenskap med 1 poäng måst du sänka en grundegenskap med 2 poäng,
+eller två egenskaper med ett poäng vardera.
+
+Tänk på två saker när du väljer tärningsgrupp och flyttar om grundegenskaper, din Rollperson kan inte få
+mer än maximala värdet för någon grundegenskap och din rollperson måste uppfylla grundegenskaps villkoret
+för det yrket du vill tillhöra.
+
+\paragraph{Kroppspoäng} Kroppspoäng räknas ut som vanligt (FYS+STO)/2 och alla kroppsdelars KP baseras på
+detta som vanligt
+
+\paragraph{Särskilda Förmågor} Du får slå på tabellen särskilda förmågor med 2T20, istället för 2T20+BP
+
+\paragraph{Svärdshand} Du får slå med 2T4 (istället för 2T6+BP). Om båda tärningarna visar samma resultat
+så får du slå om en av dom och lägga till på resultatet, om även den tärningen visar samma siffra, så
+slå repetera.
+
+\paragraph{Socialt stånd} Slå 2T6 (istället för 2T6+BP). Samma tärnings regler som för svärdshand.
+
+\paragraph{Startkapital} Samma metod som för Svärdshand och Socialt stånd. Startkapitalet kan inte
+bli högre eller lägre än $\pm$10 än ditt sociala stånd
+
+\paragraph{Start färdigheter} Dina erfarenhetspoäng baseras som vanligt på din ålder. Du får
+lägga till 25 EP och därefter måste du dra bort kostnaden för din ras.
+
+Till exempel - En alv har alltid 150 EP (pga av dess icke-varierande ålder). En ung anka har 150+25$\pm$0 = 175
+Medelåldersmänniska har 250+25-10=215 EP.
+
+\section{Färdigheter}
+
+\subsection{Chanser att lyckas (CL)}
+En rollperson har ett färdighetvärde mellan 1 och 20 i sina olika inlärda färdigheter. Hens CL modifieras
+beroende på situation. Det är lättare att göra saker i lugn och ro än att göra dom under stress och livsfara.
+Det är även lättare att klättra upp för en repstege än att klättra upp för en hal klippvägg.
+
+Därför läggs modifikationer på ditt FV som blir din nya CL, om man slår under CL så har man lyckats med
+sin färdighet
+
+\subsection{Färdighetskategorier - 2 st}
+
+\paragraph{Kategori A} Använder Chanser att Lyckas ligger oftast mellan 1 och 20, slå en T20 för att
+se om du har lyckats med din färdighet. Ibland slår SL undangömda slag så att rollpersonen inte vet om
+den lyckas eller inte, ibland vet inte ens rollpersonen vad SL slår för.
+
+\paragraph{Kategori B} Slumpen är ofta irrelevant, om de inte är exceptionella undantag. Som till exempel
+att rollpersonen inte har sovit på en vecka, eller rollpersonen är påverkad av sinnes slöande droger.
+
+Färdighetsvärden omvandlas till en FV-B skala mellan B0 och B5
+
+\begin{table}[hbp]
+  \begin{tabular}{|l|l|}
+    \hline
+    Färdighet         & Baserad på grundegenskap \\
+    \hline
+    Läsa/Skriva modersmål & INT(elligens) [special] \\
+    Tala modersmål        & INT(elligens) [special] \\
+    Finna Dolda Ting  & INT(elligens) \\
+    Första hjälpen    & INT(elligens) \\
+    Gömma sig         & INT(elligens) \\
+    Spåra             & INT(elligens) \\
+    Värdera Föremål   & INT(elligens) \\
+    Smyga             & SMI(dighet) \\
+    Stjäla Föremål    & SMI(dighet) \\
+    Hoppa             & SMI(dighet)   \\
+    Klättra           & SMI(dighet)   \\
+    Rida              & SMI(dighet) \\
+    Slagsmål          & STY(rka) \\
+    Bluffa            & KAR(isma) \\
+    Sjunga            & KAR(isma) \\
+    Köpslå            & KAR(isma)  \\
+    Övertala          & KAR(isma) \\
+    Upptäcka Fara     & PSY(ke) \\
+  \end{tabular}
+\end{table}
+
+\subsection{Sekundära Färdighetstabellen}
+
+TODO
+
+
+
+
+
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
