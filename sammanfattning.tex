@@ -95,7 +95,7 @@
         \vspace{1cm}
         {\scshape\Large Sammanställning av de olika reglerna\par}
         \vspace{1.5cm}
-        {\huge\bfseries Ceterum censeo Carthaginem esse delendam\par}
+        {\huge ''Ceterum censeo Carthaginem esse delendam''\par}
         \vspace{2cm}
         {\Large\itshape Jonatan Andersson\par}
         \vspace{2cm}
@@ -477,11 +477,86 @@ Antalet totala Kroppspoäng är (FYS+STO)/2 avrundat uppåt. Kroppsdelarnas KP b
 \newpage
 \section{Skadebonus}
 
-TODO
+Om du har mycket hög storlek och/eller hög styrka, så kommer du att göra
+mer skada när du slåss i närstrid.
+
+\begin{table}[hbp]
+  \caption{Skadebonus tabell}
+ \begin{tabular}{|l|l|}
+   \hline
+   STY + STO  &  Skadebonus \\
+   \hline
+   1-20       & 0     \\
+   \hline
+   27-29      & +1    \\
+   \hline
+   30-32      & +1T2  \\
+   \hline
+   33-40      & +1T4  \\
+   \hline
+   41-50      & +1T6  \\
+   \hline
+   51-80      & +2T6  \\
+   \hline
+   81-100     & +3T6   \\
+   \hline
+   101-140    & +4T6   \\
+   \hline
+   141-180    & +5T6   \\
+   \hline
+ \end{tabular}
+\end{table}
 
 \section{Förflyttning}
+Hur många rutor kan du förflytta dig under en strid. Varje
+strid är uppdelad i Stridsrundor som är 5 sekunder långa.
+En förflyttning på en ruta är 1.5 m lång.
 
-TODO
+\begin{table}[hbp]
+  \caption{Förflyttnings tabell}
+ \begin{tabular}{|l|l|}
+   \hline
+   STO+FYS+SMI & FÖRFLYTTNING \\
+   \hline
+   0-11        & 7  \\
+   \hline
+   12-20       & 8  \\
+   \hline
+   21-29       & 9  \\
+   \hline
+   30-38       & 10 \\
+   \hline
+   39-47       & 11 \\
+   \hline
+   48-56       & 12 \\
+   \hline
+   57-65       & 13 \\
+   \hline
+   66-74       & 14 \\
+   \hline
+   75-83       & 15 \\
+   \hline
+   84-92       & 16 \\
+   \hline
+   +8          & +1 \\
+   \hline
+ \end{tabular}
+\end{table}
+
+De olika raserna är olika bra på att förflytta sig
+\begin{table}[hbp]
+  \caption{Rasmodifikation för förflyttning}
+ \begin{tabular}{|l|l|}
+   \hline
+   RAS      & MODIFIKATION \\
+   Anka     & -2 \\
+   Alv      & +1 \\
+   Dvärg    & -2 \\
+   Halvlängdsman & -2 \\
+   Övriga   & $\pm$ 0 \\
+ \end{tabular}
+\end{table}
+
 
 \section{Särskilda förmågor}
 När du skapar din rollperson så får du slå på en tabell för särskilda förmågor
@@ -496,16 +571,165 @@ får du +1 på slaget. Använd en 2T20
   \item För Hjälte som rollperson, slå 3 gånger på tabellen för särskilda förmågor
 \end{enumerate}
 
-TODO: Skriv in tabellen från sidan 25
+\begin{table}[hbp]
+  \caption{Särskilda förmågor Tabell}
+ \begin{tabular}{|l|l|}
+   \hline
+   2T20 + BP & Särskild förmåga \\
+   ~         & ~                \\
+   \hline
+   3-4       & +1 på FV på valfri sekundär färdighet (utom förbjudna färdigheter) \\
+   5-6       & Sjöfararbakgrund. Du får +2 FV på Sjökunnighet och Navigera \\
+   7-8       & Starka vrister. Du har +3 FV på Hoppa \\
+   9-10      & Bråkig uppväxt. Du +3 FV på Slagsmål \\
+   11-12     & Hantverkarbakgrund. Du får +3 FV på valfri hantverkarfärdighet (läder, smide, etc) \\
+   13-14     & Smidig kropp. Du får +3 FV i Akrobatik \\
+   15-16     & Köpmannabakgrund. Du får +3 FV i Värdera \\
+   17-18     & God koordinationsfömåga. Du får +3 FV i Två Vapen \\
+   19-20     & Hobbyist. Du får FV 3 i en valfri sekundär färdighet, och du kan lära dig den från början.   \\
+   ~         & Ingen föbjuden färdighet. \\
+   21-22     & Stakra Nypor. Du har alltid +3 CL i att klättra. \\
+   23-24     & Mottagligt medium. Du har alltid +5 CL i Magisk Kanalisering då du är den passiva parten. \\
+   25-26     & Hängiven Student. Du får +2 på Valfritt FV. Om färdigheten har någon begränsning i max FV, \\
+   ~         & så höjs även den gränsen. Du kan inte lära dig en föbjuden färdighet på detta vis \\
+   27-28     & Övertygande Tonfal. Du har alltid +3 CL i Övertala och Muta. \\
+   29-30     & Sjätte Sinne. Du får +1 FV i Upptäcka Fara och Finna Dolda Ting \\
+   31-32     & Stirrande Blick. Du har alltid +5 CL i hypnotisera. \\
+   33-34     & Magikänsla. Du har alltid +5 CL på att Känna Magi. \\
+   35-36     & Gott språksinne. Du får automatiskt FV 20 (B5) i att Tala och Läsa/Skriva ett valfritt språk. \\
+   37-38     & Stort kunskapsområde. Du får välja ytterligare två valfria  \\
+   ~         & sekundära färdighetet till yrkesfärdigheter. \\
+   39-40     & God Bågskytt. Alla räckvidder för alla projektilvapen ökas med 25 procen \\
+   41-42     & Absolut Gehör. Grundkostnaden för att lära sig Spela Instrument (valfritt) och Sjunga är alltid 1 \\
+   43-44     & Precisionssinne. Du har CL +1 på alla vapenfärdigheter \\
+   45-46     & Dubbelhänt. Du har CL +1 på alla vapenfärdigheter. \\
+   47-48     & God tidskänsla. Du har mycket god känsla för tidens gång och vet alltid på 10 minuter \\
+   ~         & när hur mycket klockan är. Om någon ber dig att vänta i två minuter så kan du avgöra  \\
+   ~         & på fem sekunder när det är. \\
+   49-51     & Absolut Ögonmått. Du kan bedöma avstånd med ögonen med 5 procents marginal. \\
+   52-54     & Mycket uppmärksam. Du har alltid +2 CL Finna Dolda Ting och Upptäcka Fara. \\
+   55        & Blixtrande reflexer. Du har +3 på alla initiativslag. \\
+   56        & Bärsärk. Du får +5 på FV i bärsärkargång. \\
+   57        & Gott Balansinne. Du har +5 i SMI vid alla balansakter och när du försöker landa  \\
+   ~         & på fötterna efter ett fall. \\
+   58        & Hästarnas Herre. Du får +10 på FV i Rida och du kan aldrig bli avkastad från hästrygg,  \\
+   ~         & däremot kan du ramla av. \\
+   59        & Ambidextriös. Se rubriken Svärdshand. \\
+   60        & Djurvän. Du blir aldrig anfallen av vanliga djur, vare sig vilda eller tama. \\
+   61        & Turgubbe. Du är tursam och kan alltid modifiera en CL med +1 genom att spendera en  \\
+   ~         & PSY poäng, (max 1 PSY poäng). \\
+   62        & Magisk Empati. Om du med din PSY kan övervinna antalet effektgrader som finns lagrade \\
+   ~         & i ett magiskt föremål, så lyckas du automatiskt identifiera alla besvärjelser som är  \\
+   ~         & lagda på föremålet, samt vilka effektgrader de har. \\
+   63        & Gudarnas Gunstling. Varje gång dina KP når noll är det 25 procent chans att din gud  \\
+   ~         & griper in och återställer alla dina KP. (Inga kritiska skador kan läkas) \\
+   64        & Lättlärd.  Grundkostnaden för sekundära färdigheter minskas till 4 poäng. \\
+   65        & Extremt smärttålig. Din totala KP multipliceras med 50 procent. \\
+   ~         & Detta förändrar även KP i kroppsdelar. \\
+   66        & Snabbslående. Du slår alltid först i varje SR. Om du möter någon annan med samma förmåga \\
+   ~         & så blir initiativet normalt. \\
+   67        & Baneman. Du ha svurit att bekämpa en speciell ras elle ett speciellt folkslag och har  \\
+   ~         & alltid +5 CL vid alla attacker mot dessa. \\
+   68        & God kroppskontroll. Du har lätt att kontrollera din adrenalintillströmmning. Genom att lyckas \\
+   ~         & med ett normalt FYS slag så kan du höja din STY och alla STY baserade färdigheter med  \\
+   ~         & +5 under 3 SR. Kan maximalt användas 2 gånger per dag. \\
+   69        & Järnnäve. Du kan alltid välj att göra  maximal skada i obeväpnad strid. \\
+   70        & Extremt orädd. Du är extremt orädd av dig och får -5 på alla slag på Skräcktabellen. \\
+ \end{tabular}
+\end{table}
+
+\begin{table}[hbp]
+  \caption{[Fortsättning] Särskilda förmågor Tabell}
+ \begin{tabular}{|l|l|}
+   71        & Orubblig vilja. Du har +5 på PSY på alla för PSY mot PSY på Motståndstabellen. \\
+   72        & Härdig mot element. Du har +5 FYS på alla Motståndsslag mot alla former av elementen, tex \\
+   ~         & eld, köld, vatten och vind (etc) \\
+   73        & Gott läkekött. Alla KP förluster som orsakas av fysiskt våld eller element(besvärjelser)  \\
+   ~         & läker dubbelt så fort som möjligt. \\
+   74        & God Mental Kropp. Du återfår PSY poäng som har spenderats på besvärjeelser på halva normala tiden. \\
+   ~         & Om du inte är magiker så välj Gott läkekött. \\
+   75        & Naturlig färdighet med med vapen. Du får gratis +5 FV på alla valfri vapenfärdighet. \\
+   76        & Kluven personlighet. Förutom din egen yrkesförmåga får du välja ytterligare en till valfri yrkesförmåga. \\
+   77        & God känsla för yrket. Kostanden för att lära dig en besvärjelse eller en yrkesfärdighet halveras alltid. \\
+   ~         & Halvera efter att du har multiplicerat grundkostnaden. \\
+   78        & Hamnbytare. Du kan när du vill förvandla dig till en av följande djur. \\
+   ~         & (Slå 1T6) 1 - Varg, 2 - Björn, 3 - Hök, 4 - Hjort, 5 - Svan, 6 - Katt. \\
+   ~         & Förvandlingen är verklig och du övertar alla djurets egenskaper (utom INT och INT baserade färdigheter). \\
+   ~         & Du behåller färdigeter (förutom besvärjelser). Förvandlinge tar 1 SR och håller i sig så länge du önskar. \\
+   ~         & För varje timme över din normala PSY måste du klara ett normalt PSY slag,  \\
+   ~         & annars fastnar du permanent i din djurhamn. \\
+   79        & Snabb uppfattningsförmåga. Du har +5 CL på alla vapenpareringar. Du kan även parera projektiler som du  \\
+   ~         & ser när de blir siktade mot dig. Du måste vid det laget hålla i ett närstridsvapen. \\
+   ~         & CL att parera projektiler är samma som FV i det vapen du håller i. \\
+   80+       & Höjd grundegenskap. Du får +1 på tre valfria olika grundegenskaper, eller +2 på en grundegenskap, \\
+   \hline
+ \end{tabular}
+\end{table}
+
 
 \section{Svärdshand}
-TODO
+Din dominanta hand kallas för Svärdshand och är mycket bättre, än din
+Sköldhand. Om du är dubbelhänt så är båda händerna lika användbara.
+Om du är ambidextriös så kan du använda dina händer samtidigt och oberoende
+av varandra, till exempel spena piano med ena handen och skriva en sonnet med
+den andra.
+
+\begin{table}[hbp]
+  \caption{Svärdshands tabell}
+  \begin{tabular}{|l|l|}
+    \hline
+    2T6 + BP & Svärdshand \\
+    \hline
+    2-11     & Högerhänt \\
+    \hline
+    12-14    & Vänsterhänt \\
+    \hline
+    15-18    & Dubbelhänt \\
+    \hline
+    > 18     & Ambidextriös \\
+    \hline
+  \end{tabular}
+\end{table}
 
 \section{Socialt Stånd}
-TODO
+\begin{table}[hbp]
+  \caption{Socialt stånd tabell}
+  \begin{tabular}{|l|l|l|}
+    \hline
+    2T6 + BP & Socialt stånd    & Typ exempel \\
+    2        & Egendomlös       & Slav, straffånge, galärslav\\
+    3-4      & Lägre underklass & Tiggare, latrimtömmare, gravgrävare  \\
+    5-7      & Högre underkalss & Lärling, gesäll, novis \\
+    8-11     & Lägre medelklass & Grovhantverkare, Stadsvakt \\
+    12-16    & Högre medelklass & Finhantverkare, köpman, präst \\
+    17-22    & Lägre överklass  & Rådsman/kvinna, hovfolk, Hantverksmästare \\
+    > 38     & Högre överklass  & Greve, påve, prinsessa, kung \\
+  \end{tabular}
+\end{table}
 
 \section{Startkapital}
-TODO
+För startkapitalet får du gratis Bakgrundspoäng. Du får hälften av de Bakgrundspoäng du spenderade
+på socialet stånd. Resultatet av startkapitalet får inte vara högre eller lägre än 10 ifrån
+det sociala ståndet.
+
+\begin{table}[hbp]
+  \caption{Svärdshands tabell}
+  \begin{tabular}{|l|l|}
+    \hline
+    2T6 + BP + SocStånd-BP/2 & Svärdshand \\
+    2      & 200 \\
+    3-4    & 400 \\
+    5-7    & 600 \\
+    8-11   & 1,000 \\
+    12-16  & 2,000 \\
+    17-22  & 3,000 \\
+    23-24  & 5,000 \\
+    30-37  & 10,000 \\
+    38-46  & 20,000 \\
+    47-56  & 30,000 \\
+    > 56   & 50,000 \\
+  \end{tabular}
+\end{table}
 
 \section{Återstående bakgrundspoäng}
 Om du har kvar några BP kan du nu gå tillbaka och använda dom för att
@@ -522,7 +746,20 @@ erfarenhetspoäng (EP), som du nu kan börja köpa yrkesfärdigheter för.
 När du bestämmer din ålder för rollpersonen förändras dina grundegenskaper. Detta
 påverkar \textit{inte}  grundegenskaps gränserna för ditt valda yrke.
 
-TODO
+\begin{table}[hbp]
+  \caption{Ålderstabell}
+  \begin{tabular}{|l|l|l|l|l|}
+    \hline
+    EGENSKAP & UNG    & MOGEN   & MEDEL & GAMMAL \\
+    STYRKA   & -1     & $\pm$0  & -2    & -5     \\
+    FYSIK    & +1     & $\pm$0  & -1    & -3     \\
+    INT      & $\pm$0 & $\pm$0  & $\pm$ & $\pm$  \\
+    PSYKE    & -1     & $\pm$0  & +2    & +4     \\
+    KARISMA  & $\pm$0 & $\pm$0  & +1    & $\pm$1 \\
+    STORLEK  & $\pm$0 & $\pm$0  & $\pm$ & $\pm$  \\
+  \end{tabular}
+\end{table}
+
 
 \section{Startfärdigheter}
 Dina startfärdigheter är de redan förtryckta primära färdigheterna på rollformuläret.
@@ -559,7 +796,64 @@ Läsa/Skriva modersmål.
 \end{table}
 
 \section{Färdighetsvärde - Kostnadstabell}
-TODO REALLY long table
+Använd denna tabell närhelst du vill öka din skicklighet i
+någon av dina färdigheter. När du skapar din rollpeson och
+även under spelets gång.
+
+\begin{table}[hbp]
+  \caption{Färdighetsvärde kostnadstabell}
+  \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+    \hline
+    FV      & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ &  ~ &  ~ &  ~ &  ~ &  ~ &  ~ &  ~ &  ~ & ~  &  ~ &  ~ & ~ \\
+    \hline
+    ~       & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 \\
+    \hline
+    ~       & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~ & ~  & ~  & ~  & ~  & ~  & ~  & ~  & ~  & ~  & ~  & ~  & ~  \\
+    \hline
+    0      & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 12 & 14 & 16 & 18 & 21 & 24 & 27 & 31 & 35 & 39 & 44 \\
+    \hline
+    1      & - & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 &  9 & 11 & 13 & 15 & 17 & 20 & 23 & 26 & 30 & 34 & 38 & 43 \\
+    \hline
+    2      & - & - & 1 & 2 & 3 & 4 & 5 & 6 & 7 &  8 & 10 & 12 & 14 & 16 & 19 & 22 & 25 & 29 & 33 & 37 & 42 \\
+    \hline
+    3      & - & - & - & 1 & 2 & 3 & 4 & 5 & 6 &  7 &  9 & 11 & 13 & 15 & 18 & 21 & 24 & 28 & 32 & 36 & 41 \\
+    \hline
+    4      & - & - & - & - & 1 & 2 & 3 & 4 & 5 &  6 &  8 & 10 & 12 & 14 & 17 & 20 & 23 & 27 & 31 & 35 & 40 \\
+    \hline
+    5      & - & - & - & - & - & 1 & 2 & 3 & 4 &  5 &  7 &  9 & 11 & 13 & 16 & 19 & 22 & 26 & 30 & 34 & 39 \\
+    \hline
+    6      & - & - & - & - & - & - & 1 & 2 & 3 &  4 &  6 &  8 & 10 & 12 & 15 & 18 & 21 & 25 & 29 & 33 & 38 \\
+    \hline
+    7      & - & - & - & - & - & - & - & 1 & 2 &  3 &  5 &  7 &  9 & 11 & 14 & 17 & 20 & 24 & 28 & 32 & 37 \\
+    \hline
+    8      & - & - & - & - & - & - & - & - & 1 &  2 &  4 &  6 &  8 & 10 & 13 & 16 & 19 & 23 & 27 & 31 & 36 \\
+    \hline
+    9      & - & - & - & - & - & - & - & - & - &  1 &  3 &  5 &  7 &  9 & 12 & 15 & 18 & 22 & 26 & 30 & 35 \\
+    \hline
+    10     & - & - & - & - & - & - & - & - & - &  - &  2 &  4 &  6 &  8 & 11 & 14 & 17 & 21 & 25 & 29 & 34 \\
+    \hline
+    11     & - & - & - & - & - & - & - & - & - &  - &  - &  2 &  4 &  6 & 9 & 12 & 15 & 19 & 23 & 27 & 32 \\
+    \hline
+    12     & - & - & - & - & - & - & - & - & - &  - &  - &  - & 2  &  4 &  7 & 10  & 13 & 17 & 21 & 25 & 30 \\
+    \hline
+    13     & - & - & - & - & - & - & - & - & - &  - &  - &  - &  - &  2 & 5  &  8 & 11 & 15 & 19 & 23 & 28 \\
+    \hline
+    14     & - & - & - & - & - & - & - & - & - &  - &  - &  - &  - &  - & 3  &  6 & 9 & 13 & 17 &  21 & 23 \\
+    \hline
+    15     & - & - & - & - & - & - & - & - & - &  - &  - &  - &  - &  - & -  & -  & 3 &  7 & 11 & 15 & 20 \\
+    \hline
+    16     & - & - & - & - & - & - & - & - & - &  - &  - &  - &  - &  - & -  & -  & - &  4 & 8 & 12 & 17 \\
+    \hline
+    18     & - & - & - & - & - & - & - & - & - &  - &  - &  - &  - &  - & -  &  - & - & -  & 4 & 8  & 13 \\
+    \hline
+    19     & - & - & - & - & - & - & - & - & - &  - &  - &  - &  - &  - & -  &  - & - & -  & -  & 4 & 9 \\
+    \hline
+    20     & - & - & - & - & - & - & - & - & - &  - &  - &  - &  - &  - & -  &  - & - & -  & -  & - & 5 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+
 
 \section{Skicklighetsväde - Kostnadstabell för besvärjelser}
 Kostnader för att bli bättre på besvärjelser baserar sig på skolvärde för den magiskolan
@@ -577,7 +871,7 @@ att förbättra KNÄCKA från 7 till 10.
   \caption{Kostnadstabell för besvärjelser}
   \begin{tabular}{|l|l|}
     \hline
-    S.V  &   Grundkostnad \\
+    S.V  &  Grundkostnad \\
     \hline
     1-3   & 2 \\
     \hline
@@ -700,6 +994,7 @@ Färdighetsvärden omvandlas till en FV-B skala mellan B0 och B5
     Köpslå            & KAR(isma)  \\
     Övertala          & KAR(isma) \\
     Upptäcka Fara     & PSY(ke) \\
+    \hline
   \end{tabular}
 \end{table}
 
